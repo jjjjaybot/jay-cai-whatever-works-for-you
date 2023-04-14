@@ -34,7 +34,6 @@ const Grid: React.FC<{}> = () => {
 	const handleClick = (row: number, col: number) => {
 		if (!start) {
 			setStart({ row, col });
-			console.log(row, col);
 		} else if (!end) {
 			setEnd({ row, col });
 		} else {
